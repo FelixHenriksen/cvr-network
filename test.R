@@ -1,6 +1,6 @@
 getwd()
 
-"C:/Users/Felix/Documents/R koder/Slaa CVR numre op"
+setwd("C:/Users/Felix/Documents/R koder/Slaa CVR numre op")
 
 library(readr)
 

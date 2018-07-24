@@ -1,0 +1,51 @@
+---
+title: "Documentation"
+author: "Felix Henriksen"
+date: "24 jul 2018"
+runtime: shiny
+output: html_document
+---
+
+## Dokumentation
+* Adgang til data
+* Indlæsning og rensning af data
+* Transformation af data
+* visnetwork
+* Deployment on shiny app
+
+# Adgang til data
+
+Læs mere om adgange til data på **virk.dk** 
+<https://datacvr.virk.dk/data/cvr-hj%C3%A6lp/cvr-adgange>
+
+Jeg har foreløbig brugt muligheden for at lave cvr udtræk. 
+
+
+# Indlæsning og rensning af data
+
+````{r} 
+
+getwd()
+
+setwd("C:/Users/Felix/Documents/R koder/Slaa CVR numre op")
+
+library(readr)
+
+DELTAGERE <- read_csv("CVR data/DELTAGERE.csv", 
+                      locale = locale(date_format = "%d-%m-%Y"))
+View(DELTAGERE)
+names(DELTAGERE)
+
+```
+
+
+
+
+
+### Transformation af data
+
+Ctrl + Alt + i er genvej til kode bid.  
+
+```{r}
+
+```
